@@ -1,0 +1,102 @@
+# ================================
+# Ghidra Extension Build Artifacts
+# ================================
+
+# Compiled Java classes
+bin/
+build/
+out/
+target/
+
+# Ghidra build outputs
+dist/
+*.jar
+*.zip
+*.tar
+*.tar.gz
+
+# Generated extension artifacts
+ghidra_scripts/.metadata/
+*.sla
+*.slaspec
+data/languages/*.sla
+
+# Ant / Gradle build files
+.gradle/
+.gradle-cache/
+gradle-app.setting
+build.xml
+
+# ================================
+# Python Artifacts
+# ================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ================================
+# IDE / Editor Files
+# ================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+build/
+
+# ================================
+# OS Generated Files
+# ================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ================================
+# Logs and Temp Files
+# ================================
+
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ================================
+# Local Environment Files
+# ================================
+
+.env
+.env.local
+*.local
+
+# ================================
+# User-specific Ghidra data
+# ================================
+
+ghidra_scripts/user/
+data/tmp/
